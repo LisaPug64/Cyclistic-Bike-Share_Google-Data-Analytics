@@ -3,6 +3,7 @@ Capstone Course - Google Data Analysis Certificate Program Offered by Coursera
 
 Data used in this analysis is fictitious first party data from a fictitious company, Cyclistic Bike Share, that is part of the Google Data Analytics Capstone Course offered by coursera.
 
+Analysis done using R; Excel power query and Excel pivot tables used to generate charts.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2016 - Cyclistic Bike Share Established
