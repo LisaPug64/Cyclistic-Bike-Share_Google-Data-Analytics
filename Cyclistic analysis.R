@@ -49,25 +49,6 @@ View(d12months_2)
 
 write_csv(d12months_2,"C:\\Users\\lisal\\Downloads\\rdata.csv")
 
-#total number of rides
-nrow(d12months_2)
-
-#total rides by member type 
-d12months_2 %>%
-  group_by(member_type) %>% 
-  count(member_type)
-
-#min, max, median, mean length of ride
-summary(d12months_2$ride_length)
-
-#arranges days of week in order
-d12months_2$weekday <- ordered(d12months_2$weekday, levels=c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
-
-#total rides by day of week
-d12months_2 %>%
-  group_by(weekday) %>% 
-  count(weekday)
-
 
 
           
