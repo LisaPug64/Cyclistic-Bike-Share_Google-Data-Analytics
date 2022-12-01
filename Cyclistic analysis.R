@@ -48,9 +48,3 @@ is.numeric(d12months_2$ride_length)
 View(d12months_2)
 
 write_csv(d12months_2,"C:\\Users\\lisal\\Downloads\\rdata.csv")
-
-
-
-          
-          
-
